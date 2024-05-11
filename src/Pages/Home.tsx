@@ -1,5 +1,6 @@
 import Navbar from "../Components/Navbar"
-import myImage from "/placeholder.svg"
+import myImage from "/image1.jpg"
+import myImage2 from "/image2.png"
 export default function Home() {
     return (
         <>
@@ -100,7 +101,7 @@ export default function Home() {
                             alt="Training Programs"
                             className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                             height="600"
-                            src={myImage}
+                            src={myImage2}
                             width="550"
                         />
                     </div>

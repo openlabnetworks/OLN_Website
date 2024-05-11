@@ -12,7 +12,7 @@ export default function Navbar() {
     return (
         <nav className="text-white">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={Logo} className="h-8" alt="Open Lab Networks Logo" />
                     <span className="self-center text-3xl font-bold whitespace-nowrap ">Open Lab Networks</span>
                 </a>
@@ -30,13 +30,13 @@ export default function Navbar() {
                 <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
                     <ul className=" flex">
                         <li>
-                            <a href="#" className="p-4 hover:underline underline-offset-4" aria-current="page">Home</a>
+                            <a href="" className="p-4 hover:underline underline-offset-4" aria-current="page">Home</a>
                         </li>
                         <li>
-                            <a href="#" className="p-4 hover:underline underline-offset-4" >About</a>
+                            <a href="" className="p-4 hover:underline underline-offset-4" >About</a>
                         </li>
                         <li>
-                            <a href="#" className="p-4 hover:underline underline-offset-4" >Contact Us</a>
+                            <a href="" className="p-4 hover:underline underline-offset-4" >Contact Us</a>
                         </li>
                        
                     </ul>

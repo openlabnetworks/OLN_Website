@@ -8,13 +8,12 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navigate to="/Home" replace />} />
-          <Route path="/Home" element={<Home />} /> 
+          <Route path="/" element={<Navigate to="/home" replace />} />
+          <Route path="/home" element={<Home />} /> 
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </>
-
   )
 }
 
